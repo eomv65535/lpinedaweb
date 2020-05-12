@@ -1,0 +1,78 @@
+<section class="intro_section page_mainslider ds"> <img src="up/bannerppal/[var.ruta_banner]" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="slide_description_wrapper">
+          <div class="slide_description">
+            <div class="intro-layer to_animate" data-animation="fadeInUp">
+              <h2><br>
+              </h2>
+            </div>
+            <div class="intro-layer to_animate" data-animation="fadeInUp">
+              <p><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="ms page_about parallax section_padding_top_130 section_padding_bottom_75 table_section table_section_md columns_margin_bottom_30" style="background-position: 50% -3px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <div class="with_frame_image"> <img src="up/imgabout/[var.ruta_abiz]" alt="" class="rounded"> </div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="section_header" style="color:#710201">[var.about]</h2>
+        <p style="text-align:justify">[var.txt_bio]</p>        
+      </div>
+    </div>
+  </div>
+</section>
+<section id="events" class="ds ms section_padding_top_30 section_padding_bottom_150 ls">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2 class="section_header" style="color:#710201">[var.concerts]</h2>
+        <div class="owl-carousel topmargin_60" data-dots="false" data-nav="true" data-responsive-lg="1" data-autoplay="true" data-autoplay-timeout="2000" data-autoplay-speed="2000"> [onshow.listado_conciertos;script=[val];subtpl] </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="featured-video" class="ds parallax section_padding_top_150 section_padding_bottom_150" style="background-image: url('up/imgfondvideo/[var.ruta_ifv]')"> <a href="[var.ellinkvideo]" class="theme_button inverse margin_0" data-gal="prettyPhoto[gal-video]" style="padding: 10px;"> <i class="fa fa-play" aria-hidden="true" style="font-size: 1.0em;top: 1px;"></i> </a>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2 class="section_header bottommargin_0"> <br>
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="news" class="ds ms section_padding_top_150 section_padding_bottom_130 ls">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2 class="section_header" style="color:#710201">[var.ultpos]</h2>
+        <div class="owl-carousel topmargin_60" data-responsive-lg="3" data-dots="true">
+			[onshow.listado_post;script=[val];subtpl] 
+          
+			
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page_breadcrumbs cs section_padding_top_25 section_padding_bottom_25" style="background:#710201">
+  <div class="container">
+    <div class="row">
+      <div class="owl-carousel topmargin_60" data-dots="false" data-nav="false" data-responsive-lg="1" data-autoplay="true" data-loop="true" data-autoplay-timeout="2000" data-autoplay-speed="2000">
+[onshow.listado_quotes;script=[val];subtpl] 
+              
+
+      </div>
+    </div>
+  </div>
+</section>

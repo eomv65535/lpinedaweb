@@ -1,0 +1,72 @@
+<section class="page_breadcrumbs ls section_padding_top_25 section_padding_bottom_25 table_section table_section_md">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-center text-md-left">
+        <h2 class="small highlight">[var.contacto]</h2>
+      </div>
+      <div class="col-md-4 text-center text-md-right">
+        <ol class="breadcrumb greylinks">
+          <li> <a href="index.php"> [var.inic_o] </a> </li>
+          <li class="active">[var.contacto]</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ms section_padding_top_100 section_padding_bottom_75">
+  <div class="container">
+    <div class="row topmargin_40">      
+      <div class="col-sm-6 to_animate animated pullDown" data-animation="pullDown">
+        <div class="teaser text-center">
+          <div class="teaser_icon  size_small"> <i class="rt-icon2-instagram"></i> </div>
+          <p> <span class="grey">Instagram:</span> @lpineda23 </p>
+        </div>
+      </div>
+      <div class="col-sm-6 to_animate animated pullDown" data-animation="pullDown">
+        <div class="teaser text-center">
+          <div class="teaser_icon  size_small"> <i class="rt-icon2-mail"></i> </div>
+          <p>lpineda2336@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="row topmargin_40">
+      <div class="col-sm-12 to_animate animated fadeInUp">
+         <form action="#" method="post" name="formac" id="formac" class="contact-form columns_padding_5">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="form-group">
+                <label for="name">[var.nombres] <span class="required">*</span></label>
+                <i class="fa fa-user highlight" aria-hidden="true"></i>
+                <input size="30" value="" name="nombres" id="nombres" class="form-control" placeholder="[var.nombres]" type="text">
+              </p>
+              <p class="form-group">
+                <label for="email">Email<span class="required">*</span></label>
+                <i class="fa fa-envelope highlight" aria-hidden="true"></i>
+                <input size="30" value="" name="xemail" id="xemail" class="form-control" placeholder="Email" type="email">
+              </p>
+              <p class="form-group">
+                <label for="subject">[var.Subject]<span class="required">*</span></label>
+                <i class="fa fa-flag highlight" aria-hidden="true"></i>
+                <input size="30" value="" name="asunto" id="asunto" class="form-control" placeholder="[var.Subject]" type="text">
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <p class="contact-form-message form-group">
+                <label for="message">[var.mensaje]</label>
+                <i class="fa fa-comment highlight" aria-hidden="true"></i>
+                <textarea rows="3" cols="45" name="mensaje" id="mensaje" class="form-control" placeholder="[var.mensaje]"></textarea>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="contact-form-submit text-center topmargin_10">
+                <button type="button" id="contact_form_submit" name="contact_submit" class="theme_button with_min_width color1" onClick="envia_contacto()" style="color:white">[var.enviar]</button>
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
